@@ -13,15 +13,15 @@ public class Main {
         sum(a, b);
         sum(2, 1);
 
-        // 2 task
-        // Sukurkite Funkciją kuri vadinasi PISq.
-        // Funkcija gražina double tipo reikšmę. Reikšmė yra : 9.8596; Gautą reikšmę atspausdinkite.
+//        // 2 task
+//        // Sukurkite Funkciją kuri vadinasi PISq.
+//        // Funkcija gražina double tipo reikšmę. Reikšmė yra : 9.8596; Gautą reikšmę atspausdinkite.
 
            System.out.println("Number is " + PISq());
 
-        // 3 task
-        //Sukurkite Funkciją kuri priima du int tipo kintamuosius. Funkcija gražina skaičių sandaugą.;
-        // Gautą reikšmę atspausdinkite.
+//        // 3 task
+//        //Sukurkite Funkciją kuri priima du int tipo kintamuosius. Funkcija gražina skaičių sandaugą.;
+//        // Gautą reikšmę atspausdinkite.
 
         int c = 3;
         int d = 2;
@@ -30,26 +30,26 @@ public class Main {
         System.out.println(multi);
         System.out.println(digits(c,d));
 
-        // 4 task
-        //   Sukurkite Funkciją kuri priima int[] tipo kintamąį, prasuka ciklą
-        //  ir atspausdina kiekvieną skaičių.
+//        // 4 task
+//        //   Sukurkite Funkciją kuri priima int[] tipo kintamąį, prasuka ciklą
+//        //  ir atspausdina kiekvieną skaičių.
 
         int [] symbols = {10,20,30,40,50};
         System.out.println(symbols);
         sequence(symbols);
 
-        // 5 task
-        // Sukurkite Funkciją kuri priima du int tipo kintamuosius, min ir max
-        // reikšmėms nustatyti ir sugeneruoja random int skaičių ir jį gražintų.
+//        // 5 task
+//        // Sukurkite Funkciją kuri priima du int tipo kintamuosius, min ir max
+//        // reikšmėms nustatyti ir sugeneruoja random int skaičių ir jį gražintų.
 
         int min = 5;
         int max = 10;
-        values(min, max);
-        System.out.println(values(min,max));
+        value(min, max);
+        System.out.println(value(min,max));
 
-        // 6 task
-//        Sukurkite Funkciją kuri sugeneruotų random int skaičių masyvą ir jį gražintų.
-//        Funkcija priima tris int tipo kintamuosius, min, max ir length reikšmėms nustatyti.
+//        // 6 task
+////        Sukurkite Funkciją kuri sugeneruotų random int skaičių masyvą ir jį gražintų.
+////        Funkcija priima tris int tipo kintamuosius, min, max ir length reikšmėms nustatyti.
 
         int min = 3;
         int max = 9;
@@ -57,44 +57,58 @@ public class Main {
         int[] array = randomized((int)min 2, (int)max 9, (int)length 11);
         randomized(array);
 
-        // 7 task
-        //   Sukurkite Funkciją kuri panaudotų 6tos užduoties masyvą (priimtų kaip kintamąjį), susumuotų ir gražintų reikšmę.
+//        // 7 task
+//        //   Sukurkite Funkciją kuri panaudotų 6tos užduoties masyvą (priimtų kaip kintamąjį), susumuotų ir gražintų reikšmę.
 
         int[] array = {3, 9, 11};
         int sum = calculate(array);
         System.out.println("The sum is " + sum);
 
-        // 8 task
-        // Sukurkite Funkciją kuri priimtų 6tos užduoties masyvą ir gražintų jos skaičių vidurkį (double).
+//        // 8 task
+//        // Sukurkite Funkciją kuri priimtų 6tos užduoties masyvą ir gražintų jos skaičių vidurkį (double).
 
         int[] array = {3, 9, 11};
         double average = calculateAverage(array);
         calculateAverage(array);
         System.out.println("Average: " + average);
 
-        // 9 task
-//        Sukurkite Funkciją kuri priimtų du int skaičius ir atspausdintų stačiakampį užpildytą žvaigždutėmis.
-//        Pirmas int - išoriniam ciklui, antras vidiniam.
+//        // 9 task
+////        Sukurkite Funkciją kuri priimtų du int skaičius ir atspausdintų stačiakampį užpildytą žvaigždutėmis.
+////        Pirmas int - išoriniam ciklui, antras vidiniam.
 
         int columns = 5;
         int rows = 10;
         createRectangle(columns, rows);
 
-        // 10 task
-//        Sukurkite Funkciją kuri priimtų sakinį kaip kintamąjį ir atspausdintų kiek jame yra raidžių ir tarpų.
-//        Sakinys - “Šiandien labai graži diena”. (kodas turi veikti padavus bet kokį sakinį)
+//        // 10 task
+////        Sukurkite Funkciją kuri priimtų sakinį kaip kintamąjį ir atspausdintų kiek jame yra raidžių ir tarpų.
+////        Sakinys - “Šiandien labai graži diena”. (kodas turi veikti padavus bet kokį sakinį)
 
           String text = "Today it is a beautiful day";
           printSentence(text);
 
-        // 11 task
-//        Sukurkite Funkciją kuri priimtų sakinį, jį užkoduotų ir grąžintų.
-//        Kodavimas - sakinį apsukame iš kitos pusės. Pvz “Naglis” turi gautis “silgaN”.
+//        // 11 task
+////        Sukurkite Funkciją kuri priimtų sakinį, jį užkoduotų ir grąžintų.
+////        Kodavimas - sakinį apsukame iš kitos pusės. Pvz “Naglis” turi gautis “silgaN”.
 
         String words = "Dolce Vita";
         otherwise(words);
         System.out.println(words);
         System.out.println(otherwise(words));
+
+        // 1 task +
+        // Parašykite funkciją,
+        // kurios argumentas būtų tekstas, kuris būtų atspausdinamas konsolėje
+        // pridedant “---” pradžioje ir gale. PVZ (---labas---)
+
+        String keyword = "Hello";
+        symbols(keyword);
+
+
+        // 2 task +
+//        Sugeneruokite atsitiktinį stringą iš raidžių ir skaičių (10 simbolių).
+//        Atspausdinkite simbolius stulpeliu. Jei tai skaičius apgaubkite “ [ 7 ]”.
+//        Jei skaičiai eina keli iš eilės, apgaubkite juos kartu. [75].
 
     }
     public static void sum(int a, int b) {
@@ -115,7 +129,7 @@ public class Main {
         System.out.println();
     }
 
-    public static int values(int min, int max) {
+    public static int value(int min, int max) {
     return min + (int) Math.round(Math.random() * (max - min));
     }
 
@@ -155,7 +169,7 @@ public class Main {
       }
     }
 
-      public static void printSentence(String text) {
+    public static void printSentence(String text) {
         int letters = 0;
         int spaces = 0;
         for (char t : text.toCharArray()) {
@@ -169,7 +183,7 @@ public class Main {
         System.out.println("Total amount of spaces is " + spaces);
       }
 
-      public static String otherwise(String words) {
+    public static String otherwise(String words) {
         String reverse = "";
         int length = words.length();
           for (int i = length -1 ; i >= 0 ; i --) {
@@ -178,6 +192,11 @@ public class Main {
           return reverse;
       }
 
+    public static void symbols(String keyword) {
+        System.out.print("---");
+        System.out.print(" " + keyword);
+        System.out.print("---");
+    }
 
 
 
